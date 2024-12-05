@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aayush Singh - Portfolio</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Aayush Singh</h1>
+      <p>nugget56.dev@gmail.com | <a target="_blank" rel="noopener noreferrer" href="https://github.com/Nugget-56">GitHub</a> | <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/aayushsingh56">LinkedIn</a></p>
+      <p class="header-text"> I am a passionate software engineer with a strong foundation in full-stack development and a keen interest in building innovative applications.</p>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="education">
+        <h3>Indian Institute of Technology, Roorkee</h3>
+        <p class="flex">B Tech. (Mechanical Engineering) <span>2020 - 2024</span></p>
+      </div>
+      <div class="education">
+        <h3>Lal Bahadur Shastri School, R K Puram</h3>
+        <p class="flex">Class 12 (CBSE) <span>2018 - 2020</span></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+
+      <div class="project">
+      <h3>FinBrief</h3>
+      <p class="flex">NextJS, ExpressJS, PuppeteerJS, PostgreSQL <span>Oct 2024 - Present</span></p>
+      <p>
+        <a style="margin-right: 5px;" target="_blank" rel="noopener noreferrer" href="https://finbrief.vercel.app">Project Link</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/FinBrief">GitHub</a>
+      </p>
+      <ul>
+        <li>Developed a personalized financial news platform that aggregates articles from multiple sources and generates a comprehensible summary using GPT-4o mini.</li>
+        <li>Built a tag-based content filtering system allowing users to customize their news feed and the ability to bookmark posts for quick access.</li>
+        <ol>
+          <li>Express.js: A scraping server that retrieves data from different sources periodically using Puppeteer, summarizes the articles, and stores them in a Postgres DB.</li>
+          <li>Next.js: The main app that provides a pleasant and responsive UI to display the user feed, fetching the data via pagination, and handles auth and other user actions like feed editing and bookmarks.</li>
+        </ol>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>CoverMix</h3>
+      <p class="flex">NextJS, Spotify API, TailwindCSS <span>Sep - Oct 2024</span></p>
+      <p>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Nugget-56/CoverMix">GitHub</a>
+      </p>
+      <ul>
+        <li>A web application that generates AI-powered custom cover art for Spotify playlists by analyzing musical characteristics and creating tailored visual representations.</li>
+        <li>Implemented Spotify OAuth authentication and REST API integration to securely access user playlist data.</li>
+        <li>Developed a dynamic image generation system leveraging AI prompts based on musical analysis of playlists (tempo, mood, energy, etc.), integrating the FLUX.1-Schnell model via Hugging Face inference for custom AI-generated visuals.</li>
+        <li>Built a responsive UI with real-time data visualization using Recharts and TailwindCSS.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>Prediction Modelling of Forest Fire Prone Areas</h3>
+      <p class="flex">MaxEnt, ArcGIS, Data analytics <span>Jan - Apr 2024</span></p>
+      <ul>
+        <li>Worked in collaboration with Forest Research Institute (FRI), Dehradun, and did a comprehensive study to see how the risk of future forest fires changes across different regions all over India under four different Shared Socio-economic Pathways (SSPs).</li>
+        <li>Utilized historical fire point data and diverse climate factors spanning a decade and developed a predictive model using MaxEnt software to identify potential forest fire hotspots.</li>
+        <li>Analyzed and preprocessed data, extracting relevant features for accurate modeling. Achieved a robust predictive accuracy, aiding in proactive fire management and conservation efforts.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h3>SyncTune</h3>
+      <p class="flex">ExpressJS, Firebase, EJS <span>Aug - Sep 2023</span></p>
+      <p>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/Nugget-56/SyncTune">GitHub</a>
+      </p>
+      <ul>
+        <li>Designed and implemented a web application for seamless song synchronization between Spotify and YouTube.</li>
+        <li>Utilized Express and Node.js in the backend for efficient data handling and routing and implemented EJS templating for dynamic content generation and an enhanced and clean User Interface.</li>
+        <li>Integrated respective RESTful APIs to implement OAuth, playlist management, and synchronization logic.</li>
+        <li>Leveraged Firebase and GCP services to securely manage user data with Firestore (NoSQL Database) and enabled users to authenticate and link their accounts, enhancing cross-platform music experience.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Technical Skills</h2>
+      <div class="skill">
+          <p><strong>Languages:</strong> C++, HTML/CSS, JavaScript/TypeScript</p>
+          <p><strong>Frameworks:</strong> React.js, Next.js, Express.js, Node.js</p>
+          <p><strong>Database and Cloud:</strong> MongoDB, PostgreSQL, Firebase, AWS</p>
+          <p><strong>Tools:</strong> Git, Docker, Postman</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Extracurriculars</h2>
+      <p>Volunteer (Videography Cell), NSS, IIT Roorkee</p>
+    </div>
+  </div>
+</body>
+</html>

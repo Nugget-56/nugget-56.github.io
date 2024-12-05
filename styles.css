@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #444;
+}
+
+.header p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #4d7db1;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #4d7db1;
+}
+
+.project, .education, .skill {
+  margin-bottom: 10px;
+}
+
+.project h3, .education h3, .skill h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.project p, .education p, .skill p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.links a {
+  color: #007BFF;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-text {
+  font-size: 1rem;
+  color: #555;
+  padding: 10px;
+  max-width: 600px;
+}
